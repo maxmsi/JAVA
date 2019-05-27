@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin.controllers.AdminMenuController">
+   <children>
+      <Button fx:id="buttonUzytkownicy" layoutX="454.0" layoutY="327.0" mnemonicParsing="false" onAction="#openUzytkownicy" text="Uzytkownicy" />
+      <Button fx:id="buttonOferty" layoutX="341.0" layoutY="327.0" mnemonicParsing="false" onAction="#openOferty" text="Oferty" />
+      <Label layoutX="68.0" layoutY="57.0" text="Administrator Menu">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

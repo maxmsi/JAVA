@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="MainPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.controlers.modules.ChooseViewController">
+   <children>
+      <Button fx:id="ListOfOffersBtn" layoutX="229.0" layoutY="92.0" mnemonicParsing="false" onMouseClicked="#OnListOfOffersButtonClicked" prefHeight="43.0" prefWidth="144.0" text="Przegladaj oferte" />
+      <Button fx:id="BuyVoucherBtn" layoutX="228.0" layoutY="179.0" mnemonicParsing="false" onMouseClicked="#OnBuyVoucherBtnClicked" prefHeight="43.0" prefWidth="144.0" text="Kup voucher" />
+      <Button fx:id="AddNewOffersBtn" layoutX="229.0" layoutY="259.0" mnemonicParsing="false" onMouseClicked="#OnAddNewOffersBtnClicked" prefHeight="43.0" prefWidth="144.0" text="Dodaj nowa oferte" />
+      <Button fx:id="LogoutBtn" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#OnLogoutBtnClicked" text="Wyloguj" />
+   </children>
+</AnchorPane>
+

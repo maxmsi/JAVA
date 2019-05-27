@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.controlers.modules.SearchOfferViewController">
+   <children>
+      <TextField fx:id="textField" layoutX="37.0" layoutY="37.0" prefHeight="25.0" prefWidth="445.0" />
+      <Button fx:id="btn" layoutX="497.0" layoutY="37.0" mnemonicParsing="false" onMouseClicked="#OnBtnClicked" text="Szukaj" />
+      <Label fx:id="titleLabel" layoutX="40.0" layoutY="14.0" text="Znajdź Voucher" />
+      <Label fx:id="voucherLabel" layoutX="40.0" layoutY="98.0" text="Znalezione Vouchery" />
+      <TableView fx:id="tableView" layoutX="37.0" layoutY="147.0" prefHeight="200.0" prefWidth="516.0">
+        <columns>
+            <TableColumn fx:id="cId" prefWidth="26.0" text="id" />
+          <TableColumn fx:id="cNazwa" prefWidth="298.0" text="nazwa" />
+          <TableColumn fx:id="cFirma" prefWidth="120.0" text="firma" />
+            <TableColumn fx:id="cCena" prefWidth="71.0" text="cena" />
+        </columns>
+      </TableView>
+      <Button fx:id="ReturnBtn" layoutX="501.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#OnReturnBtnClicked" text="Powrót" />
+   </children>
+</AnchorPane>
