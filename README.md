@@ -1,6 +1,6 @@
- Java projects repository
+ Java projects repository:
 
- Voucher shop
-  -Simple Desktop application for vocher shop:
-   Technologies: 
-   JavaSE, SQLite,
+ Voucher shop:
+   -Simple Desktop application for vocher shop:
+    Technologies: 
+     - JavaSE, SQLite,
